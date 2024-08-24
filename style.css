@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px; /* Space between the buttons */
+	margin-top: 20px;
+}
+
+.btn {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none; /* Removes underline for anchor tags */
+	transition: background-color 0.3s ease;
+	color: white; /* Ensure text is white for consistency */
+}
+
+.play-btn {
+	background-color: #4CAF50;
+}
+
+.play-btn:hover {
+	background-color: #45a049;
+}
+
+.download-btn {
+	background-color: #008CBA;
+}
+
+.download-btn:hover {
+	background-color: #007bb5;
+}
